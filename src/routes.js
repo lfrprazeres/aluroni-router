@@ -20,7 +20,7 @@ export default function AppRouter() {
             <Route path='sobre' element={<Sobre />} />
           </Route>
           <Route path='*' element={<NotFound />} />
-          <Route path='prato/:banana' element={<Prato />} />
+          <Route path='prato/:id' element={<Prato />} />
         </Routes>
         <Footer />
       </Router>
